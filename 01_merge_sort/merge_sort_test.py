@@ -22,7 +22,7 @@ class TestMergeSort(unittest.TestCase):
         actual = merge_sort(input_arr)
         self.assertEqual(expected, actual)
 
-    def testInvertedArray(self):
+    def testReversedArray(self):
         expected = [1, 2, 3, 4, 5, 6, 7]
         input_arr = list(reversed(expected))
         actual = merge_sort(input_arr)
